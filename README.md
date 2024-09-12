@@ -4,6 +4,9 @@ You will need to have python and pip installed
 
 To run this code
 ```
+cd subtitler
+python -m venv .venv
+.venv\Scripts\activate.bat
 python -m pip install -r requirements.txt
 python ktinker.py
 ```
